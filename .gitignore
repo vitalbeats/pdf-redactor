@@ -5,3 +5,4 @@ __pycache__
 /pdf_redactor.egg-info
 /.eggs
 /.tox
+.venv/
