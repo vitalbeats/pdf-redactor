@@ -26,8 +26,8 @@ keywords = ["pdf"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-pdfrw = ">=0.4"
 defusedxml = "^0.7.1"
+pdfrw2 = "^0.5.0"
 
 [tool.poetry.dev-dependencies]
 nose = "^1.3.7"

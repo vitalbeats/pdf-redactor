@@ -38,7 +38,7 @@ def smoke_test_file(path):
 	options.metadata_filters = {"ALL": [metadata_filter]}
 	try:
 		pdf_redactor.redactor(options)
-	except (pdfrw.errors.PdfParseError,
+	except (pdfrw22.errors.PdfParseError,
 			IndexError,
 			AssertionError,
 			xml.etree.ElementTree.ParseError,
