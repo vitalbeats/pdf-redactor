@@ -9,7 +9,7 @@ setup(
 	long_description='''
 	A general-purpose PDF text-layer redaction tool, in pure Python, by Joshua Tauberer and Antoine McGrath.
 
-	pdf-redactor uses pdfrw under the hood to parse and write out the PDF.
+	pdf-redactor uses pdfrw2 under the hood to parse and write out the PDF.
 
 	This Python module is a general tool to help you automatically redact text from PDFs. The tool operates on:
 
@@ -41,7 +41,7 @@ setup(
 		'Topic :: Utilities',
 	],
 	install_requires=[
-		'pdfrw>=0.4',
+		'pdfrw2>=0.5',
 		'defusedxml',
 	],
 	tests_require=[
